@@ -62,13 +62,23 @@ This project is used by the following companies:
 
 ## Screenshots
 
+Splash Screen
+
 ![Splash Screen](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/splashScreen.jpeg)
+
+Home Screen
 
 ![Home Screen](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/homeScreen.jpeg)
 
+Navigation Drawer
+
 ![Navigation Drawer](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/navigation.png)
 
+Education Screen
+
 ![Education Screen](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/educationScreen.jpeg)
+
+Scholarship Screen
 
 ![Scholarship Screen](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/scholarShips.jpeg)
 

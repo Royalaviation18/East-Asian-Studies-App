@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Education">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Theme.EastAsiaStudiesApplication">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@drawable/background"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Education"
+            app:expandedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
+            app:collapsedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
+            android:background="@drawable/background"
+            android:id="@+id/collapsing_toolbar_education">
+
+            <ImageView
+                android:layout_width="206dp"
+                android:layout_height="152dp"
+                android:layout_gravity="center|end"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/education1"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_shape"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+        <RelativeLayout
+
+            android:id="@+id/RL1_education"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewEducation1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/RL1"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/RL1"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationH1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducation"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationL1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:autoLink="web"
+                android:textColor="@color/black"
+                android:clickable="true"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationH2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL1"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationL2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_below="@id/textViewEducationH2"
+                android:layout_marginTop="5dp"
+                android:autoLink="web"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationH3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_below="@id/textViewEducationH3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:autoLink="web"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+
+            <TextView
+                android:id="@+id/textViewEducationH4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL3"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:layout_below="@id/textViewEducationH4"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationH5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL4"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH5"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL5"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH6"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL6"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH7"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL7"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH8"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL8"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH9"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL9"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH10"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL10"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH11"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL11"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH12"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL12"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH13"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL13"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH14"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL14"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH15"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL15"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH16"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL16"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH17"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL17"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH18"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL18"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH19"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL19"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH20"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL20"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH21"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL21"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH22"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL22"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH23"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL23"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH24"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationH25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL24"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH25"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/phd_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#F1C68C"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        app:maxImageSize="36dp"
+        android:src="@drawable/phd"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pg_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="96dp"
+        android:backgroundTint="#F1C68C"
+        app:maxImageSize="28dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:src="@drawable/pg"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ug_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="176dp"
+        android:backgroundTint="#F1C68C"
+        app:maxImageSize="28dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:src="@drawable/ug"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

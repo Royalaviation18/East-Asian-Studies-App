@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_education"
+            android:icon="@drawable/mortarboard"
+            android:title="Higher Education" />
+        <item
+            android:id="@+id/nav_scholarship"
+            android:icon="@drawable/scholarship"
+            android:title="Fellowship/Scholarship" />
+        <item
+            android:id="@+id/nav_exchanges"
+            android:icon="@drawable/exchange"
+            android:title="Exchanges" />
+        <item
+            android:id="@+id/nav_conferences"
+            android:icon="@drawable/conference"
+            android:title="Conferences" />
+        <item
+            android:id="@+id/nav_internships"
+            android:icon="@drawable/employee"
+            android:title="Internships" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/contact"
+            android:title="About us" />
+    </group>
+
+</menu>

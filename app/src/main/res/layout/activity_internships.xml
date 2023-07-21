@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Internships">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Theme.EastAsiaStudiesApplication">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@drawable/background"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Internships"
+            app:expandedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
+            app:collapsedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
+            android:background="@drawable/background"
+            android:id="@+id/collapsing_toolbar_internship">
+
+            <ImageView
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/internship2"
+                app:layout_collapseMode="parallax"/>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_shape"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+        <RelativeLayout
+            android:id="@+id/RL1_internship"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewInternship1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/RL1_internship"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternship"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/RL1_internship"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipH1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternship"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipL1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:autoLink="web"
+                android:textColor="@color/black"
+                android:clickable="true"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipH2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL1"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipL2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_below="@id/textViewInternshipH2"
+                android:layout_marginTop="5dp"
+                android:autoLink="web"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipH3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_below="@id/textViewInternshipH3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:autoLink="web"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+
+            <TextView
+                android:id="@+id/textViewInternshipH4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL3"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:layout_below="@id/textViewInternshipH4"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipH5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL4"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH5"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL5"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH6"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL6"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH7"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL7"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH8"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL8"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH9"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL9"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH10"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL10"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH11"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL11"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH12"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL12"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH13"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL13"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH14"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL14"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH15"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL15"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH16"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL16"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH17"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL17"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH18"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL18"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH19"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL19"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH20"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL20"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH21"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL21"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH22"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL22"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH23"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL23"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH24"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipH25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL24"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH25"
+                android:autoLink="web"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/phd_internship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#F1C68C"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        app:maxImageSize="36dp"
+        android:src="@drawable/phd"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pg_internship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="96dp"
+        android:backgroundTint="#F1C68C"
+        app:maxImageSize="28dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:src="@drawable/pg"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ug_internship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="176dp"
+        android:backgroundTint="#F1C68C"
+        app:maxImageSize="28dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:src="@drawable/ug"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EastAsiaStudiesApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".IndoPacificMain"
+            android:exported="false" />
+        <activity
+            android:name=".SouthEastAsianMain"
+            android:exported="false" />
+        <activity
+            android:name=".KoreaMain"
+            android:exported="false" />
+        <activity
+            android:name=".JapanMain"
+            android:exported="false" />
+        <activity
+            android:name=".FundAgencies"
+            android:exported="false" />
+        <activity
+            android:name=".Universities"
+            android:exported="false" />
+        <activity
+            android:name=".Internships"
+            android:exported="false" />
+        <activity
+            android:name=".FinancialAid"
+            android:exported="false" />
+        <activity
+            android:name=".Conferences"
+            android:exported="false" />
+        <activity
+            android:name=".Exchanges"
+            android:exported="false" />
+        <activity
+            android:name=".Scholarship"
+            android:exported="false" />
+        <activity
+            android:name=".Fellowship"
+            android:exported="false" />
+        <activity
+            android:name=".Education"
+            android:exported="false" />
+        <activity
+            android:name=".CountryHome"
+            android:exported="false" />
+        <activity
+            android:name=".ChinaMain"
+            android:exported="false"
+            android:theme="@style/Theme.EastAsiaStudiesApplication.NoActionBar"
+            />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

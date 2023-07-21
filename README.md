@@ -8,13 +8,13 @@ The main aim of this project is provide a mobile application to the centre. This
 
 > I am immensely grateful to the many individuals who have supported me throughout my journey. Completing this project would not have been possible without their unwavering support and encouragement. Their guidance, expertise, and feedback were instrumental in shaping the direction of this work and helping me achieve my goals. I would like to express my deepest appreciation to each of them for their contributions.
 
-I would like to express my sincere gratitude to the Department of Computer Science,  Dr Ashok Immanuel V and Dr Shoney Sebastian for their unwavering support throughout my research project. Their guidance and mentorship have been invaluable in shaping my research.
+>I would like to express my sincere gratitude to the Department of Computer Science,  Dr Ashok Immanuel V and Dr Shoney Sebastian for their unwavering support throughout my research project. Their guidance and mentorship have been invaluable in shaping my research.
 
-I would like to extend my special thanks to my internal guides, Dr Deepa V Jose and Dr Nizar Banu, for their insightful suggestions, constructive feedback, and constant encouragement. Their expertise and knowledge have been instrumental in helping me overcome various challenges and achieve my research goals.
+>I would like to extend my special thanks to my internal guides, Dr Deepa V Jose and Dr Nizar Banu, for their insightful suggestions, constructive feedback, and constant encouragement. Their expertise and knowledge have been instrumental in helping me overcome various challenges and achieve my research goals.
 
-I would also like to thank Dr N Manoharan from Department of International Studies, Political Science and History, whose collaboration and support have been immensely helpful in providing me with access to valuable resources and literature related to my research.
+>I would also like to thank Dr N Manoharan from Department of International Studies, Political Science and History, whose collaboration and support have been immensely helpful in providing me with access to valuable resources and literature related to my research.
 
-Last but not least, I would like to express my heartfelt thanks to my family and friends for their unwavering support, encouragement, and love throughout this journey. Their constant motivation and belief in me have kept me going, and I cannot thank them enough.
+>Last but not least, I would like to express my heartfelt thanks to my family and friends for their unwavering support, encouragement, and love throughout this journey. Their constant motivation and belief in me have kept me going, and I cannot thank them enough.
 Once again, I express my sincere gratitude to everyone who has contributed to my research project in various ways.
 
 
@@ -65,6 +65,8 @@ This project is used by the following companies:
 ![Splash Screen](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/splashScreen.jpeg)
 
 ![Home Screen](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/homeScreen.jpeg)
+
+![Navigation Drawer](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/navigation.png)
 
 ![Education Screen](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/educationScreen.jpeg)
 

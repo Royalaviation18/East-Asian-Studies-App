@@ -19,7 +19,7 @@ Once again, I express my sincere gratitude to everyone who has contributed to my
 
 
 ## Application Flow
-([https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/applicationFlow.jpg](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/applicationFlow.jpg))
+(https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/applicationFlow.jpg)](https://github.com/Royalaviation18/East-Asian-Studies-App/blob/master/applicationFlow.png)
 
 ## Plan
 1) Developed a plan for the mobile application, with proper deadlines.

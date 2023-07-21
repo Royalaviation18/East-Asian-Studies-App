@@ -1,7 +1,7 @@
 
 # East Asian Studies - Mobile Application
 
-The main aim of this project is provide a mobile application to the centre. This application will be a resource sharing platform for the centre which will be used to update information for the regions (China, Japan, Korea, South East Asia, Indo Pacific). The application is build on java framework and firebase in backend. The regions have five pillars (Education, Scholarship, Exchanges, Conferences, Internships, Universities) further with three subdivisons for undergraduate, postgraduate and PhD. 
+The main aim of this project is to provide a mobile application to the center. This application will be a resource-sharing platform for the center which will be used to update information for the regions (China, Japan, Korea, South East Asia, and Indo-Pacific). The application is built on java framework and firebase in the backend. The regions have five pillars (Education, Scholarship, Exchanges, Conferences, Internships, Universities) further with three subdivisions for undergraduate, postgraduate, and PhD.
 
 
 ## Acknowledgements
